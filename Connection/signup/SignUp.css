@@ -1,11 +1,42 @@
 body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('../../images/Background1.png') no-repeat center center fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 1;
+}
+.left-align {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 350px;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    width: 4vw;
+    height: 400px;
+    min-width: 350px;
+    background: rgba(165,94,230);
+    box-shadow: 2px 0 20px 0 rgba(0,0,0,0.08);
+    z-index: 1;
 }
 .signup-container {
     background: rgba(255,255,255,0.15);

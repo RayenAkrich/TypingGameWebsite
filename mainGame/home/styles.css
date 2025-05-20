@@ -51,3 +51,15 @@ body {
     background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
     transform: translateY(-2px) scale(1.03);
 }
+.home-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* ...existing button styles... */
+}
+.icon img {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}

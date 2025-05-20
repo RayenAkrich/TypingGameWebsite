@@ -40,10 +40,20 @@ body {
     font-weight: 700;
     cursor: pointer;
     transition: background 0.2s, transform 0.1s;
+    display: flex;
+    align-items: center;
+    gap: 7px;
 }
 .nav-btn:hover, .nav-btn.active {
     background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
     transform: translateY(-2px) scale(1.03);
+}
+.icon img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
 }
 .main-container {
     background: rgba(255,255,255,0.15);

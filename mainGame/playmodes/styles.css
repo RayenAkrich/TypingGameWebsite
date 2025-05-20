@@ -104,3 +104,9 @@ body {
     opacity: 0;
     pointer-events: none;
 }
+.icon img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}

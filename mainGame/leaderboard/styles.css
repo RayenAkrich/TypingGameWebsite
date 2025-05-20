@@ -102,3 +102,9 @@ body {
 #leaderboard-table tr.highlight {
     background: #ffd70033;
 }
+.icon img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}

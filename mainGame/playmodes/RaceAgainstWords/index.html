@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Against the Words - Typing Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-box">
+            <ul class="nav-list">
+                <li><button class="nav-btn" onclick="window.location.href='../../home/index.html'">HOME</button></li>
+                <li><button class="nav-btn" onclick="window.location.href='../index.html'">PLAY MODES</button></li>
+                <li><button class="nav-btn" onclick="window.location.href='../../about/index.html'">ABOUT</button></li>
+                <li><button class="nav-btn" onclick="window.location.href='../../contact/index.html'">CONTACT</button></li>
+                <li><button class="nav-btn" onclick="window.location.href='../../source/index.html'">SOURCE CODE</button></li>
+                <li><button class="nav-btn" onclick="window.location.href='../../leaderboard/index.html'">LEADERBOARD</button></li>
+                <li><button class="nav-btn" onclick="window.location.href='../../disconnect/index.html'">DISCONNECT</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="main-title">Race Against the Words</div>
+        <button id="start-btn">Start</button>
+        <div id="game-area"></div>
+        <input type="text" id="input-box" autocomplete="off" disabled style="display:none;" />
+        <div id="result-message"></div>
+        <div id="score-message"></div>
+        <div id="record-message"></div>
+    </div>
+    <script src="../../playmodes/paragraphs.js"></script>
+    <script src="RaceAgainstWords.js"></script>
+</body>
+</html>

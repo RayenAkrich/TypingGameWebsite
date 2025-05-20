@@ -1,4 +1,5 @@
-# This file was renamed. Please use serverManipulation.py instead of signup_server.py
+# This file was renamed from signup_server.py to serverManipulation.py
+# All logic and endpoints remain unchanged.
 
 from flask import Flask, request, jsonify
 import mysql.connector
@@ -134,5 +135,6 @@ def leaderboard():
         return jsonify({'success': True, 'scores': scores})
     except Error as e:
         return jsonify({'success': False, 'message': str(e)}), 500
+
 if __name__ == '__main__':
     app.run(debug=True)

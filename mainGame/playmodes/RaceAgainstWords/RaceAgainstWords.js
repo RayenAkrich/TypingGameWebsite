@@ -40,8 +40,8 @@ function startGame() {
     inputBox.focus();
     words = pickWords();
     startTime = Date.now();
-    spawnInterval = setInterval(spawnWord, 900); // spawn a word every 0.9s (faster)
-    moveInterval = setInterval(moveWords, 40); // move words every 40ms (faster)
+    spawnInterval = setInterval(spawnWord, 900); // spawn a word every 0.9s
+    moveInterval = setInterval(moveWords, 40); // move words every 40ms
 }
 
 function spawnWord() {

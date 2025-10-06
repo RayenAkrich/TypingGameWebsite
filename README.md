@@ -72,4 +72,4 @@ For questions or contributions, see the Contact and Source pages in the app.<br>
 ---<br>
 
 <b>Demo link</b><br>
-[All major requirements and requested refinements are complete. The project is ready for review, polish, or optional enhancements!](https://www.linkedin.com/feed/update/urn:li:activity:7330940085946765312/)<br>
+[Demo](https://www.linkedin.com/feed/update/urn:li:activity:7330940085946765312/)<br>
